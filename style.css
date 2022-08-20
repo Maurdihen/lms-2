@@ -1,24 +1,36 @@
+body{
+	background: url(bg.jpg);
+	opacity: 0.85;
+	height: 100vh;
+}
+body::befo{
+	background: url(bg.jpg);
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.85;
+	content: "";
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .header{
 	width: 960;
 	color: #FF00FF;
 	font-size: 16px;
 	text-align: center;
-	background-color: #40E0D0;
 	margin: 70 auto;
 	padding: 10px;
-	border: 5px solid #000;
-	border-radius: 200px
 }
 .text{
-	color: #000000;
-	text-decoration: underline;
+	color: #e31919;
 }
 .h1{
-	color:#FF00FF;
-	font-size: 24px;
+	color:#e31919;
+	font-size: 32px;
 }
 .mail{
-	color: #0000FF;
+	color: #e31919;
 }
 .mail:hover {
 	color: #FF0000;
@@ -29,15 +41,14 @@
 	color: #000;
 	font-size: 16px;
 	text-align: center;
-	background-color: #40E0D0;
 	margin: 70 auto;
 	padding: 10px;
-	border: 5px solid #000;
-	border-radius: 200px;
 	padding-bottom: 40px;
 }
 .container{
 	width: 960;
+	position: relative;
+	z-index: 1;
 }
 .form__input{
 	width: 400px;
@@ -80,4 +91,10 @@
 	display: block;
 	margin-bottom: 10px;
 	border-radius: 10px;
+}
+.socset{
+	color: #e31919;
+}
+.Vk{
+	color: #e31919;
 }
